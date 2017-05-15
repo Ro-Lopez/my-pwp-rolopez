@@ -40,15 +40,15 @@
 
 			
 			
-			<img src="images/pwp_wireframingM.jpg">
-			
-			<img src="images/pwp_wireframingM_abo.jpg">
-			
-			<img src="images/pwp_wireframing_webdev.jpg">
-			
-			<img src="images/pwp_wireframingM_busiconsult.jpg">
-			
-			<img src="images/pwp_wireframingM_contact.jpg">
+			<p><img src="images/pwp_wireframingM.jpg"></p>
+
+			<p><img src="images/pwp_wireframingM_abo.jpg"></p>
+
+			<p><img src="images/pwp_wireframingM_webdev.jpg	"></p>
+
+			<p><img src="images/pwp_wireframingM_busiconsult.jpg"></p>
+
+			<p><img src="images/pwp_wireframingM_contact.jpg"></p>
 
 
 
