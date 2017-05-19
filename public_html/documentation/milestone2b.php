@@ -1,7 +1,7 @@
 <!doctype html>
 
 
-<html>
+<html lang="en">
 
 
 	<head>
@@ -27,13 +27,13 @@
 		<!--[if lt IE 9]>
 		<!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
 <!--		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
-<!--		<![endif]-->-->
+<!--		<![endif]-->
 
 		<!-- jQuery -->
-<!--		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
 
 		<!-- Latest compiled and minified JavaScript -->
-<!--		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
 	</head>
@@ -43,15 +43,41 @@
 
 
 
-	<body>
+	<body class="sfooter">
 
 
 		<header>
 
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">LLdev</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="main-menu">
+						<ul class="nav navbar-nav navbar-right">
+							<li>About</li>
+							<li>Contact</li>
+							<li>Web Development</li>
+							<li>Business Consultant</li>
+							<li>Resume</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+
+q
 		</header>
 
 
-		<main>
 
 
 
@@ -77,7 +103,15 @@
 
 
 
-		</main>
+
+
+
+
+		<footer>
+
+
+
+		</footer>
 
 
 	</body>
