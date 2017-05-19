@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a8bff2ab-effe-444e-8d0d-7f45539dfb6c" name="pwpwebsite" url="http://bootcamp-coders.cnm.edu/~llopez165/my-pwp-rolopez/">
+        <fileTransfer host="bootcamp-coders.cnm.edu" port="22" privateKey="C:\Users\LoroloDeuces\Desktop\bootcamp\ssh-key.openssh" rootFolder="/home/llopez165/public_html/my-pwp-rolopez" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
