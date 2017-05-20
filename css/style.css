@@ -1,3 +1,76 @@
-html, body {
-	background-color: lightblue;
+
+
+
+
+
+
+html,body {
+	background: grey;
 }
+
+
+.container {
+	background: darkblue;
+	width: 5em;
+	color: darkgray;
+}
+
+
+.firstcontainer {
+	text-align: center;
+	color: white;
+	background:gray;;
+	margin-bottom: 10em;
+
+
+
+}
+
+.col-lg-2 {
+	padding-right: 3em;
+	padding-top: 1em;
+	font-size: 1.5em;
+	color: darkgray;
+
+
+}
+
+
+.col-lg-2:first-child {
+	color:white;
+	top: -1.25em;
+	font-size:500%;
+	font-family: cursive;
+
+}
+
+.headerone {
+	background-color: darkblue;
+	padding-bottom: 3em;
+}
+
+
+#bg {
+	position: fixed;
+	top: 5em;
+	left: 0;
+
+	/* Preserve aspet ratio */
+	min-width: 100%;
+	min-height: 100%;
+}
+
+
+
+
+
+.lltitle {
+	color: white;
+	font-size-adjust: 0.5;
+	padding-right: 20em;
+	/*padding-right: 20em;*/
+}
+
+
+
+
