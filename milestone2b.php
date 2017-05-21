@@ -82,27 +82,27 @@
 							<div class="col-lg-2" id="lldev"><button>LLdev</button></div>
 
 							<div class="col-lg-2">
-								<button onclick="myFunction()">About</button>
+								<button onclick="myAbout()">About</button>
 							</div>
 
 							<div class="col-lg-2">
-								<button onclick="myFunction()">Contact</button>
+								<button onclick="myContact()">Contact</button>
 							</div>
 
 							<div class="col-lg-2">
-								<button onclick="myFunction()">Web Development</button>
+								<button onclick="myWebdev()">Web Development</button>
 							</div>
 
 							<div class="col-lg-2">
-								<button onclick="myFunction()">Business Consultant</button>
+								<button onclick="myBuscon()">Business Consultant</button>
 							</div>
 
 							<div class="col-lg-2">
-								<button onclick="myFunction()">Resume</button>
+								<button onclick="myResume()">Resume</button>
 							</div>
 
 
-\
+
 
 						</div>
 					</div>
@@ -139,7 +139,11 @@
 
 
 
-							<p id="demo"></p>
+							<h2 id="about"></h2>
+							<h2 id="contact"></h2>
+							<h2 id="webdev"></h2>
+							<h2 id="buscon"></h2>
+							<h2 id="resume"></h2>
 
 						</div>
 
