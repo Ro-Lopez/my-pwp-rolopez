@@ -79,7 +79,9 @@
 						<div class="row">
 
 
-							<div class="col-lg-2" id="lldev"><button>LLdev</button></div>
+							<div class="col-lg-2">
+								<button onclick="myLldev()">LLdev</button>
+							</div>
 
 							<div class="col-lg-2">
 								<button onclick="myAbout()">About</button>
@@ -131,14 +133,7 @@
 
 						<div class="col-md-12">
 
-						<h1>THE DEVELOPMENT YOU NEED FOR THE LIFE YOU WANT</h1>
-
-
-
-
-
-
-
+							<h1 id="lldev"></h1>
 							<h2 id="about"></h2>
 							<h2 id="contact"></h2>
 							<h2 id="webdev"></h2>
