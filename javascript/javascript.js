@@ -2,8 +2,11 @@
  * Created by LoroloDeuces on 5/20/2017.
  */
 
+/**
+
 function myLldev() {
 	document.getElementById("lldev").innerHTML = "THE LIFE YOU NEED FOR THE LIFE YOU WANT";
+	document.getElementById("about").value = "";
 }
 
 
@@ -35,3 +38,13 @@ function myBuscon() {
 function myResume() {
 	document.getElementById("resume").innerHTML = "Here is my resume, FUCK YOU PAY ME";
 	}
+
+ **/
+
+$("#lldevid").click(function(){
+	$("p").hide();
+});
+
+$("#show").click(function(){
+	$("p").show();
+});
