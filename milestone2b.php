@@ -40,6 +40,8 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+		<script type="text/javascript" src="javascript/javascript.js"></script>
+
 	</head>
 
 
@@ -80,10 +82,13 @@
 							<div class="col-lg-2" id="lldev"><button>LLdev</button></div>
 
 							<div class="col-lg-2"><button>About</button></div>
-							<div class="col-lg-2"><button>Conract</button></div>
-							<div class="col-lg-2">Web Development</div>
-							<div class="col-lg-2">Business Consultant</div>
-							<div class="col-lg-2">Resume</div>
+							<div class="col-lg-2"><button>Contact</button></div>
+							<div class="col-lg-2"><button>Development</button></div>
+							<div class="col-lg-2"><button>Business Consultant</button></div>
+							<div class="col-lg-2"><button>Resume</button></div>
+
+
+\
 
 						</div>
 					</div>
@@ -114,6 +119,14 @@
 
 						<h1>THE DEVELOPMENT YOU NEED FOR THE LIFE YOU WANT</h1>
 
+
+
+							<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+
+							<button onclick="myFunction()">Click me</button>
+
+							<p id="demo"></p>
+
 						</div>
 
 					</div>
@@ -131,9 +144,18 @@
 
 
 
+		<section>
+
+			<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+
+			<button onclick="myFunction()">Click me</button>
+
+			<p id="demo"></p>
 
 
 
+
+		</section>
 
 
 
