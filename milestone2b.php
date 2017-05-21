@@ -81,11 +81,25 @@
 
 							<div class="col-lg-2" id="lldev"><button>LLdev</button></div>
 
-							<div class="col-lg-2"><button>About</button></div>
-							<div class="col-lg-2"><button>Contact</button></div>
-							<div class="col-lg-2"><button>Development</button></div>
-							<div class="col-lg-2"><button>Business Consultant</button></div>
-							<div class="col-lg-2"><button>Resume</button></div>
+							<div class="col-lg-2">
+								<button onclick="myFunction()">About</button>
+							</div>
+
+							<div class="col-lg-2">
+								<button onclick="myFunction()">Contact</button>
+							</div>
+
+							<div class="col-lg-2">
+								<button onclick="myFunction()">Web Development</button>
+							</div>
+
+							<div class="col-lg-2">
+								<button onclick="myFunction()">Business Consultant</button>
+							</div>
+
+							<div class="col-lg-2">
+								<button onclick="myFunction()">Resume</button>
+							</div>
 
 
 \
@@ -121,9 +135,9 @@
 
 
 
-							<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
 
-							<button onclick="myFunction()">Click me</button>
+
+
 
 							<p id="demo"></p>
 
