@@ -3,7 +3,7 @@
  */
 
 /**
-
+ATTEMPT #1
 function myLldev() {
 	document.getElementById("lldev").innerHTML = "THE LIFE YOU NEED FOR THE LIFE YOU WANT";
 	document.getElementById("about").value = "";
@@ -41,10 +41,59 @@ function myResume() {
 
  **/
 
+
+/**
+ * ATTEMPT #2
+
 $("#lldevid").click(function(){
 	$("p").hide();
 });
 
 $("#show").click(function(){
 	$("p").show();
+});
+ **/
+
+/**
+ *ATTEMPT #3
+ **/
+
+
+$(document).ready(function(){
+
+	$("#aboutButt").click(function(){
+		$("p").hide();
+		$("h4").hide();
+		$("h3").hide();
+		$("h2").hide();
+		$("h1").show();
+	});
+
+
+	$("#webdevButt").click(function(){
+		$("p").hide();
+		$("h4").hide();
+		$("h3").hide();
+		$("h1").hide();
+		$("h2").show();
+	});
+
+
+	$("#busidevButt").click(function(){
+		$("p").hide();
+		$("h4").hide();
+		$("h1").hide();
+		$("h2").hide();
+		$("h3").show();
+	});
+
+
+	$("#contactButt").click(function(){
+		$("p").hide();
+		$("h2").hide();
+		$("h3").hide();
+		$("h1").hide();
+		$("h4").show();
+	});
+
 });

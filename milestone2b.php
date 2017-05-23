@@ -80,23 +80,23 @@
 
 
 							<div class="col-lg-2">
-								<button onclick="myLldev()" id="lldevid">LLdev</button>
+								<button id="lldevButt">LLdev</button>
 							</div>
 
 							<div class="col-lg-2">
-								<button onclick="myAbout()">About</button>
+								<button id="aboutButt">About</button>
+							</div>x
+
+							<div class="col-lg-2">
+								<button id="webdevButt">Web Development</button>
 							</div>
 
 							<div class="col-lg-2">
-								<button onclick="myContact()">Contact</button>
+								<button id="busidevButt">Business Development</button>
 							</div>
 
 							<div class="col-lg-2">
-								<button onclick="myWebdev()">Web Development</button>
-							</div>
-
-							<div class="col-lg-2">
-								<button onclick="myBuscon()">Business Consultant</button>
+								<button id="contactButt">Contact</button>
 							</div>
 
 							<div class="col-lg-2">
@@ -133,12 +133,11 @@
 
 						<div class="col-md-12">
 
-							<h1 id="lldev"></h1>
-							<h2 id="about"></h2>
-							<h2 id="contact"></h2>
-							<h2 id="webdev"></h2>
-							<h2 id="buscon"></h2>
-							<h2 id="resume"></h2>
+							<p>PROFITABLE. PRODUCTIVE. PROFESSIONAL.</p>
+							<h1>These are facts about me</h1>
+							<h2>Web development stuff </h2>
+							<h3>Let me start your business</h3>
+							<h4>These are my contacts</h4>
 
 						</div>
 
