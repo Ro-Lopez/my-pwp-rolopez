@@ -61,44 +61,44 @@ $("#show").click(function(){
 
 $(document).ready(function(){
 
-	$("h4").hide();
-	$("h3").hide();
-	$("h2").hide();
-	$("h1").hide();
+	$("#contactscontent").hide();
+	$("#busidevContent").hide();
+	$("#webdevContent").hide();
+	$("#aboutContent").hide();
 
 	$("#aboutButt").click(function(){
-		$("p").hide();
-		$("h4").hide();
-		$("h3").hide();
-		$("h2").hide();
-		$("h1").show();
+		$("#busidevContent").hide();
+		$("#contactscontent").hide();
+		$("#webdevContent").hide();
+		$("#titleContent").hide();
+		$("#aboutContent").show();
 	});
 
 
 	$("#webdevButt").click(function(){
-		$("p").hide();
-		$("h4").hide();
-		$("h3").hide();
-		$("h1").hide();
-		$("h2").show();
+		$("#titleContent").hide();
+		$("#contactsContent").hide();
+		$("#aboutContent").hide();
+		$("#busidevContent").hide();
+		$("#webdevContent").show();
 	});
 
 
 	$("#busidevButt").click(function(){
-		$("p").hide();
-		$("h4").hide();
-		$("h1").hide();
-		$("h2").hide();
-		$("h3").show();
+		$("#titleContent").hide();
+		$("#contactsContent").hide();
+		$("#aboutContent").hide();
+		$("#webdevContent").hide();
+		$("#busidevContent").show();
 	});
 
 
 	$("#contactButt").click(function(){
-		$("p").hide();
-		$("h2").hide();
-		$("h3").hide();
-		$("h1").hide();
-		$("h4").show();
+		$("#titleContent").hide();
+		$("#aboutContent").hide();
+		$("#webdevContent").hide();
+		$("#busidevContent").hide();
+		$("#contactscontent").show();
 	});
 
 });

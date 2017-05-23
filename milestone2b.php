@@ -85,7 +85,7 @@
 
 							<div class="col-lg-2">
 								<button id="aboutButt">About</button>
-							</div>x
+							</div>
 
 							<div class="col-lg-2">
 								<button id="webdevButt">Web Development</button>
@@ -131,13 +131,15 @@
 
 					<div class="slogan">
 
-						<div class="col-md-12">
+						<div class="row">
 
-							<p>PROFITABLE. PRODUCTIVE. PROFESSIONAL.</p>
-							<h1>These are facts about me</h1>
-							<h2>Web development stuff </h2>
-							<h3>Let me start your business</h3>
-							<h4>These are my contacts</h4>
+
+
+							<div class="one" id="titleContent"> <p>PRODUCTIVE. PROFESSIONAL.</p></div>
+							<div class="two" id="aboutContent"><p>These are facts about me</p></div>
+							<div class="three" id="webdevContent">Web development stuff </div>
+							<div class="four" id="busidevContent">Let me start your business</div>
+							<div class="five" id="contactscontent">These are my contacts</div>
 
 						</div>
 
@@ -190,6 +192,9 @@
 
 
 		<footer>
+
+
+
 
 
 
