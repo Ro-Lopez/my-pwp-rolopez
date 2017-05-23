@@ -66,9 +66,11 @@
 
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar">Something</span>
-							<span class="icon-bar">Something</span>
-							<span class="icon-bar">Something</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
 						</button>
 
 
@@ -102,6 +104,8 @@
 							<div class="col-lg-2">
 								<button id="resumeButt">Resume</button>
 							</div>
+
+
 
 
 
@@ -159,6 +163,17 @@
 
 
 		<section>
+
+
+			<h3>A demonstration of how to access a Search field</h3>
+
+			<input type="search" id="mySearch" placeholder="Search for something..">
+
+			<p>Click the button to get the placeholder text of the search field.</p>
+
+			<button onclick="myFunction()">Try it</button>
+
+			<p id="demo"></p>
 
 
 
