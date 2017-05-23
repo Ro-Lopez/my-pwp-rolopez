@@ -100,7 +100,7 @@
 							</div>
 
 							<div class="col-lg-2">
-								<button onclick="myResume()">Resume</button>
+								<button id="resumeButt">Resume</button>
 							</div>
 
 
@@ -158,11 +158,6 @@
 
 		<section>
 
-			<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
-
-			<button onclick="myFunction()">Click me</button>
-
-			<p id="demo"></p>
 
 
 

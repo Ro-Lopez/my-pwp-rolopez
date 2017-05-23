@@ -61,6 +61,11 @@ $("#show").click(function(){
 
 $(document).ready(function(){
 
+	$("h4").hide();
+	$("h3").hide();
+	$("h2").hide();
+	$("h1").hide();
+
 	$("#aboutButt").click(function(){
 		$("p").hide();
 		$("h4").hide();
