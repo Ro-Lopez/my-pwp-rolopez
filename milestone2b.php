@@ -51,7 +51,7 @@
 
 	<body>
 
-		<img src="images/suit2.jpg" id="bg" alt="">
+		<!--<img src="images/suit2.jpg" id="bg" alt=""> -->
 
 
 		<header>
@@ -82,27 +82,36 @@
 
 
 							<div class="col-lg-2">
-								<button id="lldevButt">LLdev</button>
-							</div>
 
-							<div class="col-lg-2">
-								<button id="aboutButt">About</button>
-							</div>
 
-							<div class="col-lg-2">
-								<button id="webdevButt">Web Development</button>
-							</div>
 
-							<div class="col-lg-2">
+								<ul>
+									<li>
+										<button id="lldevButt">LLdev</button>
+									</li>
+
+
+									<li>
+									<button id="aboutButt">About</button>
+								</li>
+
+									<li>
+									<button id="webdevButt">Web Development</button>
+								</li>
+
+									<li>
 								<button id="busidevButt">Business Development</button>
-							</div>
+								</li>
 
-							<div class="col-lg-2">
+									<li>
 								<button id="contactButt">Contact</button>
-							</div>
+									</li>
 
-							<div class="col-lg-2">
-								<button id="resumeButt">Resume</button>
+								<li><button id="resumeButt">Resume</button></li>
+
+
+								</ul>
+
 							</div>
 
 
@@ -115,8 +124,7 @@
 
 
 
-					</div><!-- /.navbar-collapse -->
-				<!-- /.container-fluid -->
+
 			</nav>
 
 
@@ -165,15 +173,7 @@
 		<section>
 
 
-			<h3>A demonstration of how to access a Search field</h3>
 
-			<input type="search" id="mySearch" placeholder="Search for something..">
-
-			<p>Click the button to get the placeholder text of the search field.</p>
-
-			<button onclick="myFunction()">Try it</button>
-
-			<p id="demo"></p>
 
 
 

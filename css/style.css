@@ -45,11 +45,14 @@ html,body {
 
 }
 
-.headerone {
+/**
+	the links in the header
+
+	.headerone {
 	background-color: darkblue;
 	padding-bottom: 3em;
 }
-
+**/
 
 /**
 
