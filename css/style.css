@@ -11,15 +11,24 @@ html,body {
 
 
 
-
+.header {
+	background-color: grey;
+}
 /**
-.col-lg-2:first-child {
+this is the content for all the buttons
+
+.row:first-child {
+	background: gray;
+}
+**/
+
+#lldevButt {
 	color:white;
 	top: -1.25em;
 	font-size:500%;
 	font-family: cursive;
 }
-	**/
+
 
 
 
@@ -60,6 +69,10 @@ html,body {
 
 */
 
+
+p {
+	 text-align: center;
+ }
 
 button {
 	padding: 0;

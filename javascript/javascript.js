@@ -61,17 +61,18 @@ $("#show").click(function(){
 
 $(document).ready(function(){
 
-	$("#contactscontent").hide();
+	$("#contactsContent").hide();
 	$("#busidevContent").hide();
 	$("#webdevContent").hide();
 	$("#aboutContent").hide();
 
 	$("#aboutButt").click(function(){
 		$("#busidevContent").hide();
-		$("#contactscontent").hide();
+		$("#contactsContent").hide();
 		$("#webdevContent").hide();
 		$("#titleContent").hide();
 		$("#aboutContent").show();
+
 	});
 
 
@@ -98,7 +99,7 @@ $(document).ready(function(){
 		$("#aboutContent").hide();
 		$("#webdevContent").hide();
 		$("#busidevContent").hide();
-		$("#contactscontent").show();
+		$("#contactsContent").show();
 	});
 
 });

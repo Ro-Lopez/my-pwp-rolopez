@@ -76,8 +76,8 @@
 
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="main-menu">
 
+				<button id="lldevButt">LLdev</button>
 
 						<div class="row">
 
@@ -86,10 +86,10 @@
 
 
 
+
+
 								<ul class="nav navbar-nav navbar-right">
-									<li>
-										<button id="lldevButt">LLdev</button>
-									</li>
+
 
 
 									<li>
@@ -122,7 +122,7 @@
 
 
 						</div>
-					</div>
+
 
 
 
@@ -130,7 +130,7 @@
 			</nav>
 
 
-		</header>'
+		</header>
 
 
 		<main>
@@ -153,7 +153,7 @@
 							<div class="two" id="aboutContent"><p> These are facts about me</p> </div>
 							<div class="three" id="webdevContent"><p> Web development stuff</p>  </div>
 							<div class="four" id="busidevContent"><p> Let me start your business</p> </div>
-							<div class="five" id="contactscontent"><p> These are my contacts</p> </div>
+							<div class="five" id="contactsContent"><p> These are my contacts</p> </div>
 
 						</div>
 
