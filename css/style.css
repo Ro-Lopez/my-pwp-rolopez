@@ -4,16 +4,23 @@
 
 
 
-html,body {
-	background: darkblue;
-}
-
-
-
-
-.header {
+article {
 	background-color: grey;
 }
+
+
+html,body {
+	background: darkblue;
+
+
+}
+
+
+
+
+
+
+
 /**
 this is the content for all the buttons
 

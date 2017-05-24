@@ -52,7 +52,7 @@
 	<body>
 
 		<!--<img src="images/suit2.jpg" id="bg" alt=""> -->
-
+	<article>
 
 		<header>
 
@@ -131,6 +131,8 @@
 
 
 		</header>
+
+	</article>
 
 
 		<main>
