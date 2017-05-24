@@ -81,11 +81,11 @@
 						<div class="row">
 
 
-							<div class="col-lg-2">
+							<div class="collapse navbar-collapse" id="main-menu">
 
 
 
-								<ul>
+								<ul class="nav navbar-nav navbar-right">
 									<li>
 										<button id="lldevButt">LLdev</button>
 									</li>

@@ -36,12 +36,14 @@ html,body {
 
 }
 
-
+/**
 .col-lg-2:first-child {
 	color:white;
 	top: -1.25em;
 	font-size:500%;
 	font-family: cursive;
+
+	**/
 
 }
 
