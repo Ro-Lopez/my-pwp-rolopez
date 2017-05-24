@@ -56,11 +56,10 @@
 
 		<header>
 
+			<nav class="navbar navbar-default">
 
-
-
-			<nav class="headerone">
-				<div class="container-fluid">
+			<nav class="container">
+				<div class="navbar-header">
 
 					<!-- Brand and toggle get grouped for better mobile display -->
 
@@ -72,6 +71,8 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
+
+				</div>
 
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -92,23 +93,24 @@
 
 
 									<li>
-									<button id="aboutButt">About</button>
-								</li>
-
-									<li>
-									<button id="webdevButt">Web Development</button>
-								</li>
-
-									<li>
-								<button id="busidevButt">Business Development</button>
-								</li>
-
-									<li>
-								<button id="contactButt">Contact</button>
+										<button id="aboutButt">About</button>
 									</li>
 
-								<li><button id="resumeButt">Resume</button></li>
+									<li>
+										<button id="webdevButt">Web Development</button>
+									</li>
 
+									<li>
+										<button id="busidevButt">Business Development</button>
+									</li>
+
+									<li>
+										<button id="contactButt">Contact</button>
+									</li>
+
+									<li>
+										<button id="resumeButt">Resume</button>
+									</li>
 
 								</ul>
 
@@ -147,11 +149,11 @@
 
 
 
-							<div class="one" id="titleContent"> <p>PRODUCTIVE. PROFESSIONAL.</p></div>
-							<div class="two" id="aboutContent"><p>These are facts about me</p></div>
-							<div class="three" id="webdevContent">Web development stuff </div>
-							<div class="four" id="busidevContent">Let me start your business</div>
-							<div class="five" id="contactscontent">These are my contacts</div>
+							<div class="one" id="titleContent"><p>PROFESSIONAL. PRODUCTIVE. PROFITABLE.</p> </div>
+							<div class="two" id="aboutContent"><p> These are facts about me</p> </div>
+							<div class="three" id="webdevContent"><p> Web development stuff</p>  </div>
+							<div class="four" id="busidevContent"><p> Let me start your business</p> </div>
+							<div class="five" id="contactscontent"><p> These are my contacts</p> </div>
 
 						</div>
 
