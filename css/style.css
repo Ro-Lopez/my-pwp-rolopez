@@ -4,10 +4,6 @@
 
 
 
-article {
-	background-color: grey;
-}
-
 
 html,body {
 	background: darkblue;
@@ -30,7 +26,7 @@ this is the content for all the buttons
 **/
 
 #lldevButt {
-	color:white;
+	color:darkblue;
 	top: -1.25em;
 	font-size:500%;
 	font-family: cursive;
@@ -90,22 +86,31 @@ button {
 
 #lldevbutt {
 	color: black;
+
 }
 
 #aboutButt {
 	color: darkblue;
+	padding-right: 2em;
+	font-size: 2em;
 }
 
 #webdevButt {
 	color: darkblue;
+	padding-right: 2em;
+	font-size: 2em;
 }
 
 #busidevButt {
 	color: darkblue;
+	padding-right: 2em;
+	font-size: 2em;
 }
 
 #contactButt {
 	color: darkblue;
+
+	font-size: 2em;
 }
 
 
