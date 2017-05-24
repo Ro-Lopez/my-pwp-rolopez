@@ -51,8 +51,8 @@
 
 	<body>
 
-		<!--<img src="images/suit2.jpg" id="bg" alt=""> -->
-	<article>
+		<!-- <img src="images/suit2.jpg" id="bg" alt=""> -->
+
 
 		<header>
 
@@ -132,7 +132,7 @@
 
 		</header>
 
-	</article>
+
 
 
 		<main>
@@ -140,30 +140,27 @@
 
 		<!-- Middle Title --->
 		<SECTION>
+			<div class="one" id="titleContent"><h1>PROFESSIONAL. PRODUCTIVE. PROFITABLE.</h1> </div>
 
-			<div class="firstcontainer">
+			<div class="container-fluid">
 
-				<div class="firstrow">
 
-					<div class="slogan">
+
+
 
 						<div class="row">
 
-
-
-							<div class="one" id="titleContent"><p>PROFESSIONAL. PRODUCTIVE. PROFITABLE.</p> </div>
-							<div class="two" id="aboutContent"><p> These are facts about me</p> </div>
-							<div class="three" id="webdevContent"><p> Web development stuff</p>  </div>
-							<div class="four" id="busidevContent"><p> Let me start your business</p> </div>
-							<div class="five" id="contactsContent"><p> These are my contacts</p> </div>
+							<div class="col col-md-8" id="aboutContent"> These are facts about me </div>
+							<div class="col-6 col-md-4"" id="webdevContent"> Web development stuff </div>
 
 						</div>
 
-					</div>
+						<div class="row">
 
+							<div class="col-md-4 text-center" id="busidevContent"> Let me start your business </div>
+							<div class="col-md-10 text-right" id="contactsContent"> These are my contacts </div>
 
-
-				</div>
+						</div>
 
 
 

@@ -27,7 +27,7 @@ this is the content for all the buttons
 
 #lldevButt {
 	color:darkblue;
-	top: -1.25em;
+
 	font-size:500%;
 	font-family: cursive;
 }
@@ -52,8 +52,9 @@ this is the content for all the buttons
 	left: 0;
 
 	/* Preserve aspet ratio */
+/**
 
-	/**
+
 	min-width: 100%;
 	min-height: 100%;
 }
@@ -73,9 +74,6 @@ this is the content for all the buttons
 */
 
 
-p {
-	 text-align: center;
- }
 
 button {
 	padding: 0;
@@ -86,6 +84,7 @@ button {
 
 #lldevbutt {
 	color: black;
+
 
 }
 

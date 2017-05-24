@@ -59,12 +59,14 @@ $("#show").click(function(){
  **/
 
 
-$(document).ready(function(){
+$(document).ready(function() {
 
 	$("#contactsContent").hide();
 	$("#busidevContent").hide();
 	$("#webdevContent").hide();
 	$("#aboutContent").hide();
+
+
 
 	$("#aboutButt").click(function(){
 		$("#busidevContent").hide();
