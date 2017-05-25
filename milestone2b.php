@@ -58,7 +58,7 @@
 
 			<nav class="navbar navbar-default">
 
-			<nav class="container">
+<!--			<nav class="container">-->
 				<div class="navbar-header">
 
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -76,111 +76,102 @@
 
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
-
 				<button id="lldevButt">LLdev</button>
 
-						<div class="row">
+			<div class="container-fluid">
 
+				<div class="row">
 
-							<div class="collapse navbar-collapse" id="main-menu">
+					<div class="collapse navbar-collapse" id="main-menu">
 
+						<ul class="nav navbar-nav navbar-right">
 
+							<li>
+								<button id="aboutButt">About</button>
+							</li>
 
+							<li>
+								<button id="webdevButt">Web Development</button>
+							</li>
 
+							<li>
+								<button id="busidevButt">Business Development</button>
+							</li>
 
-								<ul class="nav navbar-nav navbar-right">
+							<li>
+								<button id="contactButt">Contact</button>
+							</li>
 
+							<li>
+								Resume
+							</li>
 
+						</ul>
 
-									<li>
-										<button id="aboutButt">About</button>
-									</li>
+					</div>
 
-									<li>
-										<button id="webdevButt">Web Development</button>
-									</li>
+				</div>
 
-									<li>
-										<button id="busidevButt">Business Development</button>
-									</li>
+			</div>
 
-									<li>
-										<button id="contactButt">Contact</button>
-									</li>
-
-									<li>
-										<button id="resumeButt">Resume</button>
-									</li>
-
-								</ul>
-
-							</div>
-
-
-
-
-
-
-						</div>
-
-
-
-
-
-			</nav>
 
 
 		</header>
 
 
 
-
-		<main>
-
+		<h1 class="one" id="titleContent">PROFESSIONAL. PRODUCTIVE. PROFITABLE. </h1>
 
 		<!-- Middle Title --->
 		<SECTION>
-			<div class="one" id="titleContent"><h1>PROFESSIONAL. PRODUCTIVE. PROFITABLE.</h1> </div>
-
-			<div class="container-fluid">
 
 
 
 
+				<div class="row justify-content-center">
 
-						<div class="row">
+					<div class = "col-md-4">
 
-							<div class="col col-md-8" id="aboutContent"> These are facts about me </div>
-							<div class="col-6 col-md-4"" id="webdevContent"> Web development stuff </div>
+						<div id="aboutContent" class="animated waypoint"> These are facts about me </div>
 
-						</div>
+					</div>
 
-						<div class="row">
+					<div class = "col-md-4">
 
-							<div class="col-md-4 text-center" id="busidevContent"> Let me start your business </div>
-							<div class="col-md-10 text-right" id="contactsContent"> These are my contacts </div>
+						<div id="webdevContent"> Web development stuff </div>
 
-						</div>
+					</div>
+
+		</SECTION>
+
+
+		<SECTION>
+
+				<div class="row">
+
+					<div class="col-md-6">
+
+						<div id="busidevContent"> Let me start your business </div>
+
+					</div>
 
 
 
-			</div>
+					<div class="col-md-6">
+
+						<div id="contactsContent"> These are my contacts </div>
+
+					</div>
+
+				</div>
+
+
 
 		</SECTION>
 
 
 
 
-		<section>
-
-
-
-
-
-
-
-
-		</section>
 
 
 
@@ -199,12 +190,6 @@
 
 
 
-
-
-
-
-
-		</main>
 
 
 		<footer>

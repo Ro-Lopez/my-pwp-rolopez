@@ -58,7 +58,7 @@ $("#show").click(function(){
  *ATTEMPT #3
  **/
 
-
+/**
 $(document).ready(function() {
 
 	$("#contactsContent").hide();
@@ -104,4 +104,37 @@ $(document).ready(function() {
 		$("#contactsContent").show();
 	});
 
+ });
+**/
+
+
+/**
+ ATTEMPT #4
+ **/
+
+
+$( "button:first" ).click(function() {
+	$( "p:first" ).fadeToggle( "slow", "linear" );
 });
+
+
+$( "button:first" ).click(function() {
+	$( "p:first" ).fadeToggle( "slow", "linear" );
+});
+
+
+$( "button:first" ).click(function() {
+	$( "p:first" ).fadeToggle( "slow", "linear" );
+});
+
+
+$( "button:first" ).click(function() {
+	$( "p:first" ).fadeToggle( "slow", "linear" );
+});
+
+
+$( "button:first" ).click(function() {
+	$( "p:first" ).fadeToggle( "slow", "linear" );
+});
+		// $( "#log" ).append( "<div>finished</div>" );
+
