@@ -40,6 +40,8 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 		<script type="text/javascript" src="javascript/javascript.js"></script>
 
 	</head>
@@ -119,7 +121,7 @@
 		</header>
 
 
-
+		<div id="log"></div>
 		<h1 class="one" id="titleContent">PROFESSIONAL. PRODUCTIVE. PROFITABLE. </h1>
 
 		<!-- Middle Title --->
@@ -132,7 +134,7 @@
 
 					<div class = "col-md-4">
 
-						<div id="aboutContent" class="animated waypoint"> These are facts about me </div>
+						<div id="aboutContent"> These are facts about me </div>
 
 					</div>
 

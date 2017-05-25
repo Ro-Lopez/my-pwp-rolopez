@@ -112,29 +112,40 @@ $(document).ready(function() {
  ATTEMPT #4
  **/
 
+/**( "#lldevButt" ).click(function() {
+	$( "p:first" ).fadeToggle( "slow", function() {
+	});
 
-$( "button:first" ).click(function() {
-	$( "p:first" ).fadeToggle( "slow", "linear" );
+
+
+$("#aboutButt").click(function() {
+	$( "#aboutContent" ).fadeToggle( "slow", function() {
+		$( "#log" ).append( "<div>finished</div>" );
+	} );
 });
 
 
-$( "button:first" ).click(function() {
-	$( "p:first" ).fadeToggle( "slow", "linear" );
+$( "#webdevButt" ).click(function() {
+	$( "#webdevContent" ).fadeToggle( "slow", "linear" );
 });
 
 
-$( "button:first" ).click(function() {
-	$( "p:first" ).fadeToggle( "slow", "linear" );
+$( "#busidevButt" ).click(function() {
+	$( "#busidevContent" ).fadeToggle( "slow", "linear" );
+});
+
+**/
+
+
+$( "#contactButt" ).click(function() {
+	$( "#contactsContent" ).fadeToggle();
+
 });
 
 
-$( "button:first" ).click(function() {
-	$( "p:first" ).fadeToggle( "slow", "linear" );
-});
 
 
-$( "button:first" ).click(function() {
-	$( "p:first" ).fadeToggle( "slow", "linear" );
-});
+
+
 		// $( "#log" ).append( "<div>finished</div>" );
 
