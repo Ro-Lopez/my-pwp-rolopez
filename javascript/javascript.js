@@ -58,7 +58,7 @@ $("#show").click(function(){
  *ATTEMPT #3
  **/
 
-/**
+
 $(document).ready(function() {
 
 	$("#contactsContent").hide();
@@ -73,7 +73,9 @@ $(document).ready(function() {
 		$("#contactsContent").hide();
 		$("#webdevContent").hide();
 		$("#titleContent").hide();
-		$("#aboutContent").show();
+		$("#aboutContent").show(1000);
+
+
 
 	});
 
@@ -83,7 +85,7 @@ $(document).ready(function() {
 		$("#contactsContent").hide();
 		$("#aboutContent").hide();
 		$("#busidevContent").hide();
-		$("#webdevContent").show();
+		$("#webdevContent").show(1000);
 	});
 
 
@@ -92,7 +94,7 @@ $(document).ready(function() {
 		$("#contactsContent").hide();
 		$("#aboutContent").hide();
 		$("#webdevContent").hide();
-		$("#busidevContent").show();
+		$("#busidevContent").show(1000);
 	});
 
 
@@ -101,27 +103,24 @@ $(document).ready(function() {
 		$("#aboutContent").hide();
 		$("#webdevContent").hide();
 		$("#busidevContent").hide();
-		$("#contactsContent").show();
+		$("#contactsContent").show(1000);
 	});
 
  });
-**/
 
 
 /**
  ATTEMPT #4
  **/
 
-/**( "#lldevButt" ).click(function() {
-	$( "p:first" ).fadeToggle( "slow", function() {
-	});
+// ( "#lldevButt" ).click(function() {
+// 	$( "p:first" ).fadeToggle( "slow", function() {
+	// });
 
-
+/**
 
 $("#aboutButt").click(function() {
-	$( "#aboutContent" ).fadeToggle( "slow", function() {
-		$( "#log" ).append( "<div>finished</div>" );
-	} );
+	$( "#aboutContent" ).fadeToggle( "slow", "linear" );
 });
 
 
@@ -134,11 +133,13 @@ $( "#busidevButt" ).click(function() {
 	$( "#busidevContent" ).fadeToggle( "slow", "linear" );
 });
 
-**/
+
 
 
 $( "#contactButt" ).click(function() {
-	$( "#contactsContent" ).fadeToggle();
+	$( "#contactsContent" ).fadeToggle("fast", "linear");
+
+});
 
 });
 
@@ -146,6 +147,6 @@ $( "#contactButt" ).click(function() {
 
 
 
-
 		// $( "#log" ).append( "<div>finished</div>" );
 
+**/
