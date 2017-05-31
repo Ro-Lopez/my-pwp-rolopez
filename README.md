@@ -35,3 +35,6 @@ Your contact section on both the desktop and mobile wireframes are lacking a con
 I would recommend adding some additional content to break down what each section is going to accomplish. Nothing long or fancy. I think you have a good handle on what your final site is going to look like, which is a huge advantage when it comes to coding. I'm looking forward to seeing everything come together!
 
 grade Tier III - Great job! https://bootcamp-coders.cnm.edu/projects/personal/rubric/
+
+## Milestone 2b Feedback
+Great work - your Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
