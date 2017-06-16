@@ -38,3 +38,26 @@ grade Tier III - Great job! https://bootcamp-coders.cnm.edu/projects/personal/ru
 
 ## Milestone 2b Feedback
 Great work - your Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+## Milestone 3 / Final PWP Evaluation
+I see you don't have any commits/pushes in the last 21 days - so what I can currently see in GitHub is what I have to use to base my evaluation of this project - FYI. Right now what I can see in GitHub has the wrong directory structure, but your deployment suggests otherwise, so I assume that things are in order there.
+
+Overall you've done really nice work implementing some creative layout ideas and challenging yourself with some custom jQuery. Nice work - I think this came together really nicely.
+
+There are some D.R.Y.-er ways of writing those jQuery lines... hit me up and I can create a plunker that shows some other ways of structuring this code that uses a data-target attribute on the button. This is the way Bootstrap has it's collapse functionality set up.
+
+Your layout is looking great on mobile, and your contact form looks great from my end - check your email and see if you got my test message.
+
+Nice work overall. I encourage you to keep building front end. Your Milestone 3/Final Delivery for PWP passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+Your overall passing grade across all of your PWP Milestones is [31/40 points (77.5%)](https://bootcamp-coders.cnm.edu/projects/personal/rubric/#sample-score).
+
+- Milestone 1 - 20%: Tier III 30(0.2) = 6
+- Milestone 2a - 20%: Tier III 30(0.2) = 6
+- Milestone 2b - 10%: Tier IV 40(0.1) = 4
+- Milestone 3 - 50%: Tier  III 30(0.5) = 15
+
+### Edits &amp; Suggestions
+- Pesky .idea directory is on GitHub! :scream_cat: You know what this means....
+- Never forget the `alt` attribute on your &lt;img&gt; tags.
+- Ideally, I'd apply your background image using CSS and the `background` property, and not use an &lt;img&gt; tag. But you got it working well here!
